@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+article.artigo-cabeçalho {
+    width: 100%;
+    height: auto;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-position: center fixed;
+    background-size: cover;
+    background-color: var(--Very-Pale-Cyan);
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+header.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+header.cabeçalho a {
+    text-decoration: none;
+    padding: 10px 60px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+header.cabeçalho a:hover, div.desc-sessão-inicial a:hover,
+section.sessão-central a:hover {
+    opacity: 0.8;
+}
+
+section.sessão-inicial {
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+
+div.desc-sessão-inicial {
+    width: 40%;
+    margin-top: 100px;
+
+}
+
+div.desc-sessão-inicial h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+div.desc-sessão-inicial p {
+    font-family: "Open sans", sans-serif;
+    margin-bottom: 40px;
+}
+
+div.desc-sessão-inicial a, section.sessão-central a {
+    text-decoration: none;
+    padding: 15px 70px;
+    border-radius: 30px;
+    background-color: var(--Pink);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+section.sessão-inicial img {
+    width: 50%;
+}
+
+article.artigos {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    align-items: center;
+}
+
+section.sessão-artigos {
+    width: 40%;
+}
+
+section.sessão-artigos h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+section.sessão-artigos p {
+    font-family: "Open sans", sans-serif;
+    color: var(--Grayish-Blue);
+}
+
+article.artigos img {
+    width: 40%;
+}
+
+section.sessão-central {
+    margin: 50px auto auto auto;
+    width: 50%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    top: 100px;
+    z-index: 1;
+    background-color: white;
+
+}
+
+section.sessão-central h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 50px auto;
+}
+
+footer.rodapé {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    color: white;
+    background-color: var(--Very-Dark-Cyan);
+    font-family: "Open sans", sans-serif;
+
+
+}
+
+div.contatos {
+    width: 25%;
+ 
+}
+
+div.contatos-icone {
+    display: flex;
+    margin-top: 20px;
+}
+
+div.contatos-icone p {
+    margin-left: 20px;
+}
+
+
+div.links-rodapé {
+    width: 25%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+}
+
+div.links-rodapé a{
+    text-decoration: none;
+    color: white;
+}
+
+div.links-rodapé a:hover {
+    text-decoration: underline;
+}
+
+div.redes-sociais-Copy {
+    width: 25%;
+}
+
+div.redes-sociais {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+div.redes-sociais a {
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+div.redes-sociais a:hover {
+    background-color: var(--Pink);
+}
+
+
+
+
+
+
+
+
+
